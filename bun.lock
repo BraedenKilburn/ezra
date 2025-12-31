@@ -4,10 +4,9 @@
   "workspaces": {
     "": {
       "name": "ezra",
-      "dependencies": {
-        "date-fns": "^4.1.0",
-      },
       "devDependencies": {
+        "@fontsource-variable/atkinson-hyperlegible-next": "^5.2.6",
+        "date-fns": "^4.1.0",
         "vite": "npm:rolldown-vite@7.2.5",
       },
     },
@@ -21,6 +20,8 @@
     "@emnapi/runtime": ["@emnapi/runtime@1.7.1", "", { "dependencies": { "tslib": "^2.4.0" } }, "sha512-PVtJr5CmLwYAU9PZDMITZoR5iAOShYREoR45EyyLrbntV50mdePTgUn4AmOw90Ifcj+x2kRjdzr1HP3RrNiHGA=="],
 
     "@emnapi/wasi-threads": ["@emnapi/wasi-threads@1.1.0", "", { "dependencies": { "tslib": "^2.4.0" } }, "sha512-WI0DdZ8xFSbgMjR1sFsKABJ/C5OnRrjT06JXbZKexJGrDuPTzZdDYfFlsgcCXCyf+suG5QU2e/y1Wo2V/OapLQ=="],
+
+    "@fontsource-variable/atkinson-hyperlegible-next": ["@fontsource-variable/atkinson-hyperlegible-next@5.2.6", "", {}, "sha512-D0Z8peFkRGYACvmWp8Sl8YPGYLBEJbzqapugtsMEYSUUtpQDiZVDHjk9s7bqB4hSCRYCrKuW6V1V+mnHybVnPw=="],
 
     "@napi-rs/wasm-runtime": ["@napi-rs/wasm-runtime@1.1.1", "", { "dependencies": { "@emnapi/core": "^1.7.1", "@emnapi/runtime": "^1.7.1", "@tybys/wasm-util": "^0.10.1" } }, "sha512-p64ah1M1ld8xjWv3qbvFwHiFVWrq1yFvV4f7w+mzaqiR4IlSgkqhcRdHwsGgomwzBH51sRY4NEowLxnaBjcW/A=="],
 

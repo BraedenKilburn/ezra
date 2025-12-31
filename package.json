@@ -9,12 +9,11 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@fontsource-variable/atkinson-hyperlegible-next": "^5.2.6",
+    "date-fns": "^4.1.0",
     "vite": "npm:rolldown-vite@7.2.5"
   },
   "overrides": {
     "vite": "npm:rolldown-vite@7.2.5"
-  },
-  "dependencies": {
-    "date-fns": "^4.1.0"
   }
 }
