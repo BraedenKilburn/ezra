@@ -1,3 +1,4 @@
+import './style.css'
 import { intervalToDuration, formatDuration } from 'date-fns'
 
 const birthDate = new Date('2025-12-15T20:21:00-08:00')
