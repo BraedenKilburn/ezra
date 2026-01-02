@@ -11,9 +11,9 @@ function updateTimer() {
   })
 
   const ageString = formatDuration(duration, { delimiter: ', ' })
-  timerElement.innerText = `I'm ${ageString} old`
+  timerElement.innerText = ageString
 }
+updateTimer()
 
 // Update every second
 setInterval(updateTimer, 1000)
-updateTimer()
