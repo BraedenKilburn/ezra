@@ -43,5 +43,15 @@ body {
     p {
       font-size: clamp(1rem, 5vw, 1.6rem);
     }
+
+    #age-timer {
+      cursor: pointer;
+      text-decoration: underline dotted;
+      text-underline-offset: 0.2em;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
   }
 }
